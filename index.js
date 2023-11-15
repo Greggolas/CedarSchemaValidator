@@ -1,5 +1,5 @@
 const { default: Ajv } = require("ajv");
-const { default: schema } = require("./schema");
+const { default: schema } = require("./lib/schema");
 
 const input = {
     "asdf::fdsa": {
